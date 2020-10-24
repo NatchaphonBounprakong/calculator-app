@@ -5,7 +5,12 @@ function plus() {
   c.value = parseFloat(a) + parseFloat(b);
 }
 
-function minus() {}
+function minus() {
+  var a = document.getElementById("input4").value;
+  var b = document.getElementById("input5").value;
+  var c = document.getElementById("input6");
+  c.value = parseFloat(a) - parseFloat(b);
+}
 
 function divide() {}
 
